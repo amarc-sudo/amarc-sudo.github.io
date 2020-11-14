@@ -1,3 +1,0 @@
-<html>
-<h1>Erreur 404, page introuvable<h1>
-</html>
