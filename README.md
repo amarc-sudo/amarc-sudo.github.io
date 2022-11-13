@@ -14,6 +14,9 @@ Pour ce faire j'ai utiliser le Framework Angular et pour le deployement une inst
 
 ## :gear: Compilation en local
 
+En premier lieu il faut installer node.js :
+https://nodejs.org/en/download/
+
 Pour lancer et tester le projet en local il faut faire les commandes suivantes :
 
 ```
