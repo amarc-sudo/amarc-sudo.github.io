@@ -12,7 +12,7 @@ Ceci est le TD/TP de Javascript de l'IUT de velizy visant a cree un site usant d
 
 Pour ce faire j'ai utiliser le Framework Angular et pour le deployement une instance firebase
 
-## :gear: Compilation
+## :gear: Compilation en local
 
 Pour lancer et tester le projet en local il faut faire les commandes suivantes :
 
@@ -24,8 +24,10 @@ npm run watch
 ```
 
 ## :walking: Marche a suivre pour le test
+Adresse du site en sur FireBase :
+https://metweb-amarc.web.app/
 
-Adresse du site :
+Adresse du site en local :
 http://localhost:4200
 
 ## :gear: Comprendre le code 
@@ -53,7 +55,7 @@ Le menu est fait avec du CSS et du TS
 
 ## Built With
 
-* [![Angular][Angular.io]][Angular-url]
+[![Angular][Angular.io]][Angular-url]
 
 
 
