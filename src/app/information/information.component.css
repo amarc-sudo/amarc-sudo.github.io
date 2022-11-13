@@ -54,6 +54,11 @@ section h1 {
   background-size: cover;
 }
 
+.bg3::after {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/assets/image/pexels-michael-burrows-7147720.jpg");
+  background-size: cover;
+}
+
 
 .no-parallax {
   background-color: #111;
@@ -75,7 +80,7 @@ section h1 {
   }
   .texte  {
     display: block;
-    font-size: 15px;
+    font-size: 20px;
     margin: 30px 300px 30px 300px;
     -webkit-transition: font-size 0.5s ease;
     -moz-transition: font-size 0.5s ease;
@@ -89,7 +94,7 @@ section h1 {
     display: block;
   }
   .texte:hover{
-    font-size: 20px;
+    font-size: 21px;
   }
 }
 @media screen and (max-width: 768px) {
@@ -103,14 +108,15 @@ section h1 {
     transition: font-size 0.5s ease;
   }
   #text1{
-    display: contents;
     font-size: 15px;
     margin: 30px;
   }
   #text2{
-    display: contents;
     font-size: 15px;
     margin: 30px;
+  }
+  #text3{
+    margin: 12px;
   }
 }
 
@@ -141,8 +147,29 @@ section h1 {
   -o-transition: opacity 0.5s ease,font-size 0.5s ease ;
   transition: opacity 0.5s ease,font-size 0.5s ease ;
 }
+#contenu{
+  opacity: 0;
+  -webkit-transition: opacity 0.5s ease,font-size 0.5s ease ;
+  -moz-transition: opacity 0.5s ease,font-size 0.5s ease ;
+  -o-transition: opacity 0.5s ease,font-size 0.5s ease ;
+  transition: opacity 0.5s ease,font-size 0.5s ease ;
+}
+#text-specificite{
+  opacity: 0;
+  -webkit-transition: opacity 0.5s ease,font-size 0.5s ease ;
+  -moz-transition: opacity 0.5s ease,font-size 0.5s ease ;
+  -o-transition: opacity 0.5s ease,font-size 0.5s ease ;
+  transition: opacity 0.5s ease,font-size 0.5s ease ;
+}
 
 #col {
   column-count: 2;
 
+}
+
+.downblue{
+  background: linear-gradient(#111, #112);
+}
+.topblue{
+  background: linear-gradient(#112, #111);
 }

@@ -14,7 +14,7 @@ export class InformationComponent implements OnInit {
   // @ts-ignore
   currentSection: BehaviorSubject<String> = new BehaviorSubject('home');
 
-  sections: string[] = ['text1', 'text2','text3', 'avantage']
+  sections: string[] = ['text1', 'text2','text3', 'avantage', 'text-specificite', 'contenu']
 
   constructor() {
   }
