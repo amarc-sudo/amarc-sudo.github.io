@@ -16,10 +16,10 @@
   padding: 14px 16px;
   text-decoration: none;
   font-size: 17px;
-  -webkit-transition: font-size .1s ease;
-  -moz-transition: font-size .1s ease;
-  -o-transition: font-size .1s ease;
-  transition: font-size .1s ease;
+  -webkit-transition: font-size 0.5s ease;
+  -moz-transition: font-size 0.5s ease;
+  -o-transition: font-size 0.5s ease;
+  transition: font-size 0.5s ease;
 }
 
 .topnav a:hover {
